@@ -1,8 +1,8 @@
 # CNN Image Classification – Natural Scene Recognition
 
-This project uses a Convolutional Neural Network (CNN) to classify natural scene images.
+This project builds a Convolutional Neural Network (CNN) to classify natural scene images.
 
-Classes:
+Classes
 - Buildings
 - Forest
 - Glacier
@@ -16,27 +16,30 @@ Intel Image Classification Dataset from Kaggle.
 Technologies Used
 - Python
 - TensorFlow
-- CNN
+- Convolutional Neural Networks (CNN)
 - Google Colab
-- Streamlit
+
+Project Workflow
+1. Load dataset
+2. Image preprocessing
+3. Build CNN model
+4. Train model
+5. Evaluate model performance
+6. Predict image class
 
 Model Performance
-Training Accuracy: 92%
-Validation Accuracy: 88%
+Training Accuracy: ~90%
+Validation Accuracy: ~85%
 
-Project Features
-- Image preprocessing
-- CNN model training
-- Accuracy evaluation
-- Streamlit web app for image prediction
+Files in this Repository
+cnn_model.ipynb → CNN training notebook  
+intel_scene_classifier.h5 → trained CNN model  
 
 How to Run
-
-1. Install dependencies
+1. Install required libraries
 pip install -r requirements.txt
 
-2. Run the app
-streamlit run app.py
+2. Open the notebook and run the code.
 
 Author
-B.Tech AI & Data Science Student
+B.Tech Artificial Intelligence & Data Science Student
